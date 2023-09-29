@@ -6,7 +6,9 @@ The script uses the syntax of `[number of rolls]d[size of die]` to determine the
 
 This is a simple randomization script and is not limited to standard dice. As long as the syntax is followed a roll of `14d153` is still considered a valid query.
 
-### Installation
+**Developer note**: Usually I would not commit vendor files or `.png` images to a repository, but I am doing it here for both the ease-of-use of users (especially those who are not familiar with _Composer_) and for a pleasent experience with `icon.png` in the Alfred prompt.
+
+## Installation
 
 - Download repository.
 - Go to Alfred preferences.
@@ -16,3 +18,8 @@ This is a simple randomization script and is not limited to standard dice. As lo
 - Place files from downloaded repository into the opened directory.
 - Trigger the workflow by typing `roll [query]` into Alfred and hitting return.
   - _Example_: `roll 2d10`
+
+## TODO
+
+- [] Add images of Alfred prompts and notifications.
+- [] Convert script to Python.
