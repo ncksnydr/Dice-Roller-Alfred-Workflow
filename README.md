@@ -16,10 +16,17 @@ This is a simple randomization script and is not limited to standard dice. As lo
 - Create a new blank workflow.
 - Right-click workflow; select _Open in Finder_.
 - Place files from downloaded repository into the opened directory.
-- Trigger the workflow by typing `roll [query]` into Alfred and hitting return.
-  - _Example_: `roll 2d10`
+
+## Usage
+
+- Trigger the Alfred prompt (`Cmd + Space` _by default_)
+- Type `roll [query]` and hit `Return`.
+
+by typing `roll [query]` into Alfred and hitting return.
+
+- _Example_: `roll 2d10`
 
 ## TODO
 
-- [] Add images of Alfred prompts and notifications.
+- [] Add images of Alfred prompts and notifications to README.
 - [] Convert script to Python.
